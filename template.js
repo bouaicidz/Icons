@@ -335,6 +335,8 @@ function I() {
     _$("#HTML303").parentsUntil(".main-container").each(function (Ks) {
       Ks.addClass("impo");
     });
+        var Kv = document.createElement("script");
+    Kv.innerHTML = "console.group(\"%cSqueeze Template\", \"font-weight:bold;color:#d24949;font-family:Tahoma;font-size:18px;\");console.log(\"» Homepage      : https://squeeze-template.blogspot.com\");console.log(\"» Designed by   : Ahmad Saleh\");console.log(\"» Programmed by : Muhammad Saleh\");console.log(\"» Version       : 2.3.1\");console.groupEnd()";
      document.head.appendChild(Kv);
     window.addEventListener("scroll", function () {
       if (document.querySelector(".widget.Blog") != null && location.host != "translate.googleusercontent.com") {
